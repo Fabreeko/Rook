@@ -1,0 +1,324 @@
+# This file contains common pin mappings for the BIGTREETECH SKR mini
+# E3 v3.0. To use this config, the firmware should be compiled for the
+# STM32G0B1 with a "8KiB bootloader" and USB communication/USART.
+
+# The "make flash" command does not work on the SKR mini E3. Instead,
+# after running "make", copy the generated "out/klipper.bin" file to a
+# file named "firmware.bin" on an SD card and then restart the SKR
+# mini E3 with that SD card.
+
+# See docs/Config_Reference.md for a description of parameters.
+[include mainsail.cfg]
+[include sensorless.cfg]
+[virtual_sdcard]
+path: /home/pi/printer_data/gcodes
+on_error_gcode: CANCEL_PRINT
+
+[force_move]
+enable_force_move: true
+
+#[include KlipperScreen.conf]
+
+#[include timelapse.cfg]
+
+[exclude_object]
+
+
+[pause_resume]
+
+[mcu]
+serial: /dev/serial/by-id/usb-Klipper_stm32g0b1xx_2A00440007504B5735313920-if00
+
+
+
+[printer]
+kinematics: corexy
+max_velocity: 300
+max_accel: 10000
+max_z_velocity: 300
+max_z_accel: 100
+
+#[safe_z_home]
+#home_xy_position: 115,115 # Change coordinates to the center of your print bed
+#speed: 50
+#z_hop: 10                 # Move up 10mm
+#z_hop_speed: 5
+
+
+# A Stepper connected to XM
+[stepper_x]
+step_pin: PB13 # checked
+dir_pin: PB12  # checked
+enable_pin: !PB14 # checked
+microsteps: 32 # checked
+rotation_distance: 40 # checked
+endstop_pin: tmc2209_stepper_x:virtual_endstop
+homing_retract_dist: 0
+position_endstop: 110
+position_max: 110
+homing_speed: 50
+
+[tmc2209 stepper_x]
+diag_pin: ^PC0 # use the same pin that was previously the endstop_pin!
+driver_SGTHRS: 135
+uart_pin: PC11 # checked
+tx_pin: PC10
+uart_address: 0
+run_current: 0.75
+sense_resistor: 0.110
+stealthchop_threshold: 1
+
+
+
+# B Stepper connected to YM
+[stepper_y]
+step_pin: PB10 # checked
+dir_pin: PB2 # checked
+enable_pin: !PB11 # checked
+microsteps: 32 # checked
+rotation_distance: 40 # checked
+endstop_pin: tmc2209_stepper_y:virtual_endstop
+homing_retract_dist: 0
+position_endstop: 109
+position_max: 109
+homing_speed: 50
+
+[tmc2209 stepper_y]
+diag_pin: ^PC1 # use the same pin that was previously the endstop_pin!
+driver_SGTHRS: 145
+uart_pin: PC11
+tx_pin: PC10
+uart_address: 2
+run_current: 0.75
+sense_resistor: 0.110
+stealthchop_threshold: 1
+
+[stepper_z] #Connected to ZAM
+step_pin: PB0
+dir_pin: PC5
+enable_pin: !PB1
+microsteps: 16
+rotation_distance: 40
+# endstop_pin: ^PC2
+position_endstop: 100
+endstop_pin: PC2
+position_max: 100
+position_min: -1.5
+
+[tmc2209 stepper_z]
+uart_pin: PC11
+tx_pin: PC10
+uart_address: 1
+run_current: 0.580
+hold_current: 0.500
+stealthchop_threshold: 1
+
+[extruder] # connected to EM
+step_pin: PB3
+dir_pin: PB4
+enable_pin: !PD1
+microsteps: 16
+rotation_distance: 3.7710
+nozzle_diameter: 0.400
+filament_diameter: 1.750
+heater_pin: PC8
+sensor_type: Generic 3950
+sensor_pin: PA0
+#control: pid
+#pid_Kp: 21.527
+#pid_Ki: 1.063
+#pid_Kd: 108.982
+min_temp: 0
+max_temp: 250
+
+[tmc2209 extruder]
+uart_pin: PC11 
+tx_pin: PC10
+uart_address: 3
+run_current: 0.75
+#hold_current: 0.500
+stealthchop_threshold: 0
+
+[heater_bed]
+heater_pin: PC9 #checked
+sensor_type: ATC Semitec 104GT-2 #checked
+sensor_pin: PC4 #checked
+#control: pid
+#pid_Kp: 54.027
+#pid_Ki: 0.770
+#pid_Kd: 948.182
+min_temp: 0
+max_temp: 130
+
+[temperature_fan controller_fan] # electronics fan connected to FAN2
+pin: PB15
+#heater: heater_bed
+#heater_temp: 45.0
+sensor_type: temperature_host
+control: watermark
+min_temp: 0
+max_temp: 100
+target_temp: 30
+
+[heater_fan nozzle_cooling_fan]
+pin: PC6
+
+[fan]
+pin: PC7
+
+
+## CB1 Temp
+[temperature_sensor RPi]
+sensor_type: temperature_host
+min_temp: 10
+max_temp: 100
+
+## MCU Temp
+[temperature_sensor MCU_temp]
+sensor_type: temperature_mcu
+min_temp: 0
+max_temp: 100
+
+[mcu rpi]
+serial: /tmp/klipper_host_mcu
+
+[adxl345]
+cs_pin: rpi:None
+
+[resonance_tester]
+accel_chip: adxl345
+probe_points:
+    55, 55, 20  # an example
+
+[board_pins]
+aliases:
+    # EXP1 header
+    EXP1_1=PB5,  EXP1_3=PA9,   EXP1_5=PA10, EXP1_7=PB8, EXP1_9=<GND>,
+    EXP1_2=PA15, EXP1_4=<RST>, EXP1_6=PB9,  EXP1_8=PD6, EXP1_10=<5V>
+
+
+######################################################################
+#  BigTreeTech TFT TouchScreen emulated 12864 mode
+######################################################################
+
+[display]
+lcd_type: emulated_st7920
+spi_software_miso_pin: PD8 # status led, Virtual MISO
+spi_software_mosi_pin: PD6
+spi_software_sclk_pin: PB9
+en_pin: PB8
+encoder_pins: ^PA10, ^PA9
+click_pin: ^!PA15
+
+[output_pin beeper]
+pin: PB5
+
+[homing_override]
+axes: xyz
+gcode:
+  {% set home_all = 'X' not in params and 'Y' not in params and 'Z' not in params %}
+
+  {% if home_all or 'X' in params %}
+    _HOME_X
+  {% endif %}
+
+ {% if home_all or 'Y' in params %}
+    _HOME_Y
+  {% endif %}
+  
+  {% if home_all or 'Z' in params %}
+    FORCE_MOVE STEPPER=stepper_z DISTANCE=-8 VELOCITY=25
+    G28 Z
+    G90 
+    G1 X54 Y54 Z25
+  {% endif %}
+
+
+[bed_screws]
+screw1: 54,5
+screw1_name: front screw
+screw2: 0,108
+screw2_name: back left
+screw3: 108,108
+screw3_name: back right
+
+[gcode_macro PRINT_START]
+#   Use PRINT_START for the slicer starting script - please customize for your slicer of choice
+gcode:
+    G28                            ; home all axes
+    G90                            ; absolute positioning    
+    #G1 Z-20 F3000                   ; move nozzle away from bed
+   
+[gcode_macro PRINT_END]
+#   Use PRINT_END for the slicer ending script - please customize for your slicer of choice
+gcode:
+    M400                           ; wait for buffer to clear
+    G92 E0                         ; zero the extruder
+    G1 E-4.0 F3600                 ; retract filament
+    G91                            ; relative positioning
+
+    #   Get Boundaries
+    {% set max_x = printer.configfile.config["stepper_x"]["position_max"]|float %}
+    {% set max_y = printer.configfile.config["stepper_y"]["position_max"]|float %}
+    {% set max_z = printer.configfile.config["stepper_z"]["position_max"]|float %}
+
+    #   Check end position to determine safe direction to move
+    {% if printer.toolhead.position.x < (max_x - 20) %}
+        {% set x_safe = 20.0 %}
+    {% else %}
+        {% set x_safe = -20.0 %}
+    {% endif %}
+
+    {% if printer.toolhead.position.y < (max_y - 20) %}
+        {% set y_safe = 20.0 %}
+    {% else %}
+        {% set y_safe = -20.0 %}
+    {% endif %}
+
+    {% if printer.toolhead.position.z < (max_z - 2) %}
+        {% set z_safe = 2.0 %}
+    {% else %}
+        {% set z_safe = max_z - printer.toolhead.position.z %}
+    {% endif %}
+
+    G0 Z{z_safe} F3600             ; move nozzle up
+    G0 X{x_safe} Y{y_safe} F20000  ; move nozzle to remove stringing
+    TURN_OFF_HEATERS
+    M107                           ; turn off fan
+    G90                            ; absolute positioning
+    G0 X54 Y{max_y} F3600          ; park nozzle at rear
+  
+[gcode_macro LOAD_FILAMENT]
+gcode:
+   M83                            ; set extruder to relative
+   G1 E30 F300                    ; load
+   G1 E15 F150                    ; prime nozzle with filament
+   M82                            ; set extruder to absolute
+    
+[gcode_macro UNLOAD_FILAMENT]
+gcode:
+   M83                            ; set extruder to relative
+   G1 E10 F300                    ; extrude a little to soften tip
+   G1 E-40 F1800                  ; retract some, but not too much or it will jam
+   M82                            ; set extruder to absolute
+
+#*# <---------------------- SAVE_CONFIG ---------------------->
+#*# DO NOT EDIT THIS BLOCK OR BELOW. The contents are auto-generated.
+#*#
+#*# [heater_bed]
+#*# control = pid
+#*# pid_kp = 69.398
+#*# pid_ki = 0.993
+#*# pid_kd = 1212.736
+#*#
+#*# [extruder]
+#*# control = pid
+#*# pid_kp = 18.137
+#*# pid_ki = 1.656
+#*# pid_kd = 49.651
+#*#
+#*# [input_shaper]
+#*# shaper_type_x = mzv
+#*# shaper_freq_x = 73.0
+#*# shaper_type_y = mzv
+#*# shaper_freq_y = 71.2
