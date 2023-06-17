@@ -138,5 +138,8 @@ Place this assembly onto the X carriage and secure it from the back through the 
 
 ![IMG_1002](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/ffcad809-15f7-427d-b3d8-29a3d3b0131d)
 
+Attach this assembly to the carriage and add the stress relief wire mount. 
+
+![IMG_1005](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/922f2b95-6ca6-4101-98ff-474264e45ce7)
 
 
