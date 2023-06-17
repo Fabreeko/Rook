@@ -127,9 +127,16 @@ Lay the piece you just cut on top of the remaining belt and align the ends. The 
 
 Insert each belt through the back of the tool head mount (blue part) from the back on the same side, one top and one bottom. Fold each one back on itself, teeth to teeth, just enough to secure them together. (About 25mm). Do this identical for each one, down to the tooth. Secure each one to itself with two wire ties.
 
-Loosely attach the tool head moint to the X rail.  Now reroute each belt according the the photos. Push the ends through the back of the tool head mount (might be easier to remove the mount from the tail for a minute) and pull tight. Ensure rhe same amount of teeth are exposed on each belt. When pulling, pull across the rail and not towards the front as that may break the part. Secure the belts back on to themselves and the mount to the rail.
+Loosely attach the tool head moint to the X rail.  Now reroute each belt according the the photos. Push the ends through the back of the tool head mount (might be easier to remove the mount from the tail for a minute) and pull tight. Ensure rhe same amount of teeth are exposed on each belt. When pulling, pull across the rail and not towards the front as that may break the part. Secure the belts back on to themselves and the mount to the rail. We will tighten later with the A and B motors. 
 
+Next, mount the Rookery Hotend to it's mount through the top two holes. 
 
+![IMG_1001](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/0bb67211-46f6-40a4-946d-37eb09f364eb)
+
+Place this assembly onto the X carriage and secure it from the back through the bottom hole. 
+![IMG_1003](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/7fcfceb4-5116-49b1-adfb-fb0f43eb71c0)
+
+![IMG_1002](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/ffcad809-15f7-427d-b3d8-29a3d3b0131d)
 
 
 
