@@ -138,6 +138,11 @@ Place this assembly onto the X carriage and secure it from the back through the 
 
 ![IMG_1002](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/ffcad809-15f7-427d-b3d8-29a3d3b0131d)
 
+Place the 4010 fans into the shroud. Start by routing wires in first and through the access holes in the center. Outflow gors down, inflow faces out. 
+
+![IMG_1004](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/422eabd7-758d-42db-8541-3eb75af457bc)
+
+
 Attach this assembly to the carriage and add the stress relief wire mount. 
 
 ![IMG_1005](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/922f2b95-6ca6-4101-98ff-474264e45ce7)
