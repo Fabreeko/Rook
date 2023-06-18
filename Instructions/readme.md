@@ -169,4 +169,9 @@ Install the MCU, Fan and (if using this solution) the RPi Zero 2.
 Attach the Z Endstop
 ![IMG_1017](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/0a27df08-164a-4060-87c1-8dfe09010d3d)
 
+Push the power port in place.
+![IMG_1019](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/52d70599-2527-4801-b18d-4c52d1aec564)
+
+The skirts will be the last printed parts to attach. Leave them off for now, but this shows where they go. You will need to do all of the wiring first. The area highlighted in green are wire tie paths for small wire ties to help with wire management as you finish up. 
+![IMG_1020](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/242a2e47-c763-4a1f-8f7a-d5fc2c2ea6af)
 
