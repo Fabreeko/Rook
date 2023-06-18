@@ -147,4 +147,12 @@ Attach this assembly to the carriage and add the stress relief wire mount.
 
 ![IMG_1005](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/922f2b95-6ca6-4101-98ff-474264e45ce7)
 
+Install the Z motor and pulley as shown. The motor should be shifted as far towards the top of the printer as possible. m
+![IMG_1007](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/26c38f59-b362-43a6-b1f0-4e9a43f7a1ea)
 
+Install the Z belt as shown. Use the same process as A/B belts to fasten the belt back on itself. See the cut-away view on how to route eaxh end. 
+![IMG_1011](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/cc4003ef-b1f1-4362-9f70-fbbbeff29f38)
+
+![IMG_1010](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/eacf75ec-54c5-4db7-87af-e786ef180b02)
+![IMG_1009](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/79dbcc4f-4bab-48ef-a1fb-246c009f72dd)
+![IMG_1008](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/99d165ec-4610-4128-bf79-bd7c5643410f)
