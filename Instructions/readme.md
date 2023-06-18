@@ -161,3 +161,12 @@ Install the Z belt as shown. Use the same process as A/B belts to fasten the bel
 ![IMG_1009](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/79dbcc4f-4bab-48ef-a1fb-246c009f72dd)
 
 ![IMG_1008](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/99d165ec-4610-4128-bf79-bd7c5643410f)
+
+Install the MCU, Fan and (if using this solution) the RPi Zero 2.
+
+![IMG_1016](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/b07ce6e3-3e2c-42b4-859e-b5e518504b21)
+
+Attach the Z Endstop
+![IMG_1017](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/0a27df08-164a-4060-87c1-8dfe09010d3d)
+
+
