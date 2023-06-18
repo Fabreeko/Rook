@@ -174,4 +174,6 @@ Push the power port in place.
 
 The skirts will be the last printed parts to attach. Leave them off for now, but this shows where they go. You will need to do all of the wiring first. The area highlighted in green are wire tie paths for small wire ties to help with wire management as you finish up. 
 ![IMG_1020](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/242a2e47-c763-4a1f-8f7a-d5fc2c2ea6af)
+We suggest getting all the startup checks and tuning with the PSU sitting next to the printer until you are fairly certain that all is well. When you are all set, add the skirts and finally the PSU. 
 
+The wiring process is tedious for sure, but also straight forward. Use the MCUs github and follow the printer.cfg here to place all the wires correctly. 
