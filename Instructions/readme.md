@@ -1,6 +1,6 @@
 Time to get started! 
 
-Ok - time to take a break.  Go to a different room where you can't see or touch a single piece of the printer. gGab a refreshment, sit down and read through this all the way to the bottom. Once you have read all the way through it, and come back to this point, you can return to the printer. Remember, your camera is on and we can see if you don't do this!
+Ok - time to take a break.  Go to a different room where you can't see or touch a single piece of the printer. Grab a refreshment, sit down and read through this all the way to the bottom. Once you have read all the way through it, and come back to this point, you can return to the printer. Remember, your camera is on and we can see if you don't do this!
 
 First step is to get all of the heat sets placed.  If you are not familiar with this, Nero3D has a couple of good YouTube videos on it. 
 https://youtube.com/shorts/cyof7fYFcuQ?feature=share
