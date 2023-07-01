@@ -18,7 +18,8 @@ Next Move on to the Bed Support
 
 Now the upper frame
 
-![IMG_0945](https://github.com/FHOGPHIL/Rook_Fabreeko/assets/69829255/503c44c5-9dc0-46db-a3d9-452808ec70ff)
+![IMG_1032](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/bae4c77e-a20b-4656-ac81-389fe379a789)
+
 
 
 ...and the tool head parts
