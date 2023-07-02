@@ -98,10 +98,10 @@ Install 4 single bearing stacks in the X axis using M3x25 SHCS.
 
 ![IMG_0965](https://github.com/FHOGPHIL/Rook_Fabreeko/assets/69829255/f8d443ba-3c0e-4006-85e1-59f026c364cd)
 
-...and a double bearing stack on each idler using M3x30 SHCS. 
+...and a double bearing stack on each idler using M5x30 SHCS. 
 ![IMG_0967](https://github.com/FHOGPHIL/Rook_Fabreeko/assets/69829255/76be85c5-bbfb-4f15-8b57-97c811e06880)
 
-....and a single stack for the Z belt using an M3x20 SHCS.
+....and a single stack for the Z belt using an M5x20 SHCS.
 
 ![IMG_0998](https://github.com/FHOGPHIL/Rook_Fabreeko/assets/69829255/9c9256b9-bec2-402a-9d33-c7f08331c0af)
 
