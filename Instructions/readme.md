@@ -114,7 +114,7 @@ The belt path is a standard CoreXY belt path. Study the two pics carefully. One 
 
 ![IMG_0970](https://github.com/FHOGPHIL/Rook_Fabreeko/assets/69829255/16272b4e-b2f0-4010-b70d-91ee5ad0601a)
 
-We will be taking the mount on and off a couple times. It attches using 3 M3x6 BHCS. The first step will use the full length of the supplied belt. With the teeth facing front, insert one end of the belt through the back of the mounting plate throught the top, right side yellow hole of the blue part in the picture. Fold the belt back over itself so about 25mm overlaps, teeth to teeth. Use a wire tie to temporarily secure it. (Note: my CAD skills and time did not allow me to show the belt loop or teeth so follow the words, not just the picture) 
+We will be taking the mount on and off a couple times. It attaches using 3 M3x6 BHCS. The first step will use the full length of the supplied belt. With the teeth facing front, insert one end of the belt through the back of the mounting plate throught the top, right side yellow hole of the blue part in the picture. Fold the belt back over itself so about 25mm overlaps, teeth to teeth. Use a wire tie to temporarily secure it. (Note: my CAD skills and time did not allow me to show the belt loop or teeth so follow the words, not just the picture) 
 ![IMG_0969](https://github.com/FHOGPHIL/Rook_Fabreeko/assets/69829255/47f429df-d14d-4f19-bb7a-6af6817d3ee5)
 
 
@@ -130,7 +130,7 @@ Lay the piece you just cut on top of the remaining belt and align the ends. The 
 
 Insert each belt through the back of the tool head mount (blue part) from the back on the same side, one top and one bottom. Fold each one back on itself, teeth to teeth, just enough to secure them together. (About 25mm). Do this identical for each one, down to the tooth. Secure each one to itself with two wire ties.
 
-Loosely attach the tool head moint to the X rail.  Now reroute each belt according the the photos. Push the ends through the back of the tool head mount (might be easier to remove the mount from the tail for a minute) and pull tight. Ensure rhe same amount of teeth are exposed on each belt. When pulling, pull across the rail and not towards the front as that may break the part. Secure the belts back on to themselves and the mount to the rail. We will tighten later with the A and B motors. Paying attention to cutting the belts the same length, securing them the same, routing the properly and securing thr opposite end the same length will help a great deal in initial tuning later.
+Loosely attach the tool head moint to the X rail.  Now reroute each belt according the the photos. Push the ends through the back of the tool head mount (might be easier to remove the mount for a minute) and pull tight. Ensure the same amount of teeth are exposed on each belt. When pulling, pull across the rail and not towards the front as that may break the part. Secure the belts back on to themselves and the mount to the rail. We will tighten later with the A and B motors. Paying attention to cutting the belts the same length, securing them the same, routing them properly and securing the opposite end the same length will help a great deal in initial tuning later.
 
 Next, mount the Rookery Hotend to it's mount through the top two holes two M3x16 SHCS. 
 
@@ -150,10 +150,10 @@ Attach this assembly to the carriage 2 M3x6 BHCS and add the stress relief wire 
 
 ![IMG_1005](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/922f2b95-6ca6-4101-98ff-474264e45ce7)
 
-Install the Z motor and pulley as shown using 4 M2x10 BHCS. The motor should be shifted as far towards the top of the printer as possible. m
+Install the Z motor and pulley as shown using 4 M2x10 BHCS. The motor should be shifted as far towards the top of the printer as possible. 
 ![IMG_1007](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/26c38f59-b362-43a6-b1f0-4e9a43f7a1ea)
 
-Install the Z belt as shown. Use the same process as A/B belts to fasten the belt back on itself. See the cut-away view on how to route eaxh end. Wrap one end around the bed support and secure it back on itself with two wires ties, route as shown all the way around back through the other partion of the bed support. Pull tight and secure it to itself, cut off excess. 
+Install the Z belt as shown. Use the same process as A/B belts to fasten the belt back on itself. See the cut-away view on how to route eaxh end. Wrap one end around the bed support and secure it back on itself with two wires ties, route as shown all the way around back through the other portion of the bed support. Pull tight and secure it to itself, cut off excess. 
 
 ![IMG_1011](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/cc4003ef-b1f1-4362-9f70-fbbbeff29f38)
 
@@ -170,6 +170,10 @@ Install the MCU, Fan and (if using this solution) the RPi Zero 2.
 Attach the Z Endstop using M2.5x12 self tapping screws
 ![IMG_1017](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/0a27df08-164a-4060-87c1-8dfe09010d3d)
 
+Attach three SHCSs to the bed using an M3 washer and nut. Install the thermistor in the bed. 
+
+Place the springs over the bed mounting holes, lower the bed into place and attach the three thumbs screws to secure it. 
+
 Push the power port in place.
 ![IMG_1019](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/52d70599-2527-4801-b18d-4c52d1aec564)
 
@@ -178,3 +182,5 @@ The skirts will be the last printed parts to attach. Leave them off for now, but
 We suggest getting all the startup checks and tuning with the PSU sitting next to the printer until you are fairly certain that all is well. When you are all set, add the skirts and finally the PSU. 
 
 The wiring process is tedious for sure, but also straight forward. Use the MCUs github and follow the printer.cfg here to place all the wires correctly. 
+
+If you have not done wiring for a printer before, watching a couple of videos on YouTube may help. 
