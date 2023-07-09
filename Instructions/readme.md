@@ -153,7 +153,7 @@ Attach this assembly to the carriage 2 M3x6 BHCS and add the stress relief wire 
 Install the Z motor and pulley as shown using 4 M2x10 BHCS. The motor should be shifted as far towards the top of the printer as possible. 
 ![IMG_1007](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/26c38f59-b362-43a6-b1f0-4e9a43f7a1ea)
 
-Install the Z belt as shown. Use the same process as A/B belts to fasten the belt back on itself. See the cut-away view on how to route eaxh end. Wrap one end around the bed support and secure it back on itself with two wires ties, route as shown all the way around back through the other portion of the bed support. Pull tight and secure it to itself, cut off excess. 
+Install the Z belt as shown. Use the same process as A/B belts to fasten the belt back on itself. See the cut-away view on how to route each end. Wrap one end around the bed support and secure it back on itself with two zip ties, route as shown all the way around back through the other portion of the bed support. Pull tight and secure it to itself, cut off excess. 
 
 ![IMG_1011](https://github.com/Fabreeko/Rook_Fabreeko/assets/69829255/cc4003ef-b1f1-4362-9f70-fbbbeff29f38)
 
