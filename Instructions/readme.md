@@ -128,7 +128,7 @@ Now completely remove the belt.
 
 Lay the piece you just cut on top of the remaining belt and align the ends. The goal is to cut another piece the exact same length, down to the number of teeth.  Doing this right will make tuning easier later on.
 
-Insert each belt through the back of the tool head mount (blue part) from the back on the same side, one top and one bottom. Fold each one back on itself, teeth to teeth, just enough to secure them together. (About 25mm). Do this identical for each one, down to the tooth. Secure each one to itself with two wire ties.
+Insert each belt through the back of the tool head mount (blue part) from the back on the same side, one top and one bottom. Fold each one back on itself, teeth to teeth, just enough to secure them together. (About 25mm). Do this identical for each one, down to the tooth. Secure each one to itself with two zip ties.
 
 Loosely attach the tool head moint to the X rail.  Now reroute each belt according the the photos. Push the ends through the back of the tool head mount (might be easier to remove the mount for a minute) and pull tight. Ensure the same amount of teeth are exposed on each belt. When pulling, pull across the rail and not towards the front as that may break the part. Secure the belts back on to themselves and the mount to the rail. We will tighten later with the A and B motors. Paying attention to cutting the belts the same length, securing them the same, routing them properly and securing the opposite end the same length will help a great deal in initial tuning later.
 
