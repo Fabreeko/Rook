@@ -92,7 +92,7 @@ Attach the motors to the motor mounts with 4 M3x10 SHCS (8 total), adjusted all 
 This shows a proper bearing stack assembly for a double bearing stack.  Note the two shims in the middle. Always do shim-bearing-bearing-shim on a single. A double is two singles so two shims in the middle. 
 ![IMG_0963](https://github.com/FHOGPHIL/Rook_Fabreeko/assets/69829255/660140b9-a612-4d0e-a748-9cb25ba517f0)
 
-Install 4 single bearing stacks in the X axis using M3x25 SHCS. 
+Install 4 single bearing stacks in the X axis using M5x25 SHCS. 
 
 ![IMG_0964](https://github.com/FHOGPHIL/Rook_Fabreeko/assets/69829255/0dee16c5-1f56-4300-8029-b6c6ffe880d6)
 
